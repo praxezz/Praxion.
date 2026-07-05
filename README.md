@@ -1,4 +1,4 @@
-# 🛡️ Praxion — Cross-Platform USB Malware Scanner & Cleaner
+#  Praxion — Cross-Platform USB Malware Scanner & Cleaner
 
 **Praxion** watches for removable USB drives, automatically scans every file that lands on them, and quarantines anything malicious — combining YARA rules, format-aware binary analysis (PE/ELF/Mach-O), fuzzy hashing, optional ClamAV signatures, and optional VirusTotal lookups into one self-contained Python script.
 
