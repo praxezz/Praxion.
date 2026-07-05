@@ -1,0 +1,11 @@
+# ---- Core (required, auto-installed by Praxion on first run) ----
+rich>=13.0.0
+psutil>=5.9.0
+yara-python>=4.3.0
+
+# ---- Optional (feature-degrading, auto-installed where possible) ----
+colorama>=0.4.6      # colored console fallback on terminals without ANSI/rich support
+pefile>=2023.2.7     # deep Windows PE (.exe/.dll) header & import-table analysis
+ppdeep>=20200505     # pure-Python CTPH fuzzy hashing (ssdeep-compatible)
+watchdog>=3.0.0      # real-time, event-driven USB scanning instead of polling
+vt-py>=0.18.0        # VirusTotal API integration (only needed with --virustotal)
